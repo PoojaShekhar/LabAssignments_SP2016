@@ -1,0 +1,15 @@
+package com.model;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
+ 
+@XmlRootElement
+public class Employee {
+ 
+private int id;
+private String firstName;
+private String lastName;
+private String email;
+private Department dept;
+}
